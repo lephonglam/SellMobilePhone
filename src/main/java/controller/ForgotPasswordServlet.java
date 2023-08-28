@@ -89,7 +89,7 @@ public class ForgotPasswordServlet extends HttpServlet {
 					message.setFrom(new InternetAddress(senderEmail));
 					message.addRecipient(javax.mail.Message.RecipientType.TO, new InternetAddress(email));
 					message.setSubject("Create new password");
-					String createPasswordLink = "http://18.133.230.65" + request.getContextPath() + "/jsp/restorepassword.jsp?email=" + email;
+					String createPasswordLink = "http://localhost:8087" + request.getContextPath() + "/jsp/restorepassword.jsp?email=" + email;
 					String emailContent = "Please access path below to restore password:\n" 
 							+ createPasswordLink + "\n\nBest regards!";
 					message.setText(emailContent);
