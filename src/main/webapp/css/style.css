@@ -724,6 +724,7 @@ nav.navbar.bootsnav ul.nav li.megamenu-fw>a:hover {
 }
 
 @media (max-width: 767px) {
+	
     nav.navbar.navbar-inverse.navbar-mobile ul.nav {
         border-top: solid 1px #222;
     }
@@ -2828,6 +2829,15 @@ ul.cart-list>li.total>.btn:hover {
     padding: 70px 0px;
 }
 
+.contact-box-main .container{
+	width: 50vw; margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .contact-box-main .container {
+        width: 100%;
+	}
+}
 .contact-info-left {
     padding: 20px;
     background: url(../images/contact-bg.jpg) no-repeat center;

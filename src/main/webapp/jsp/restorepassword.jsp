@@ -63,7 +63,7 @@
 						aria-expanded="false" aria-label="Toggle navigation">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand" href="index.html"><img
+					<a class="navbar-brand" href="${pageContext.request.contextPath }/ListServlet"><img
 						src="../image/smartphone-logo.png" class="logo" alt=""><br />
 						<h1>
 							<b>HOANG KIM MOBILE</b>
@@ -87,7 +87,7 @@
 
 	<!-- Start Contact Us  -->
 	<div class="contact-box-main">
-		<div class="container" style="width: 50vw; margin: 0 auto;">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-sm-12">
 					<div class="contact-form-right">
@@ -200,10 +200,10 @@
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
 	<!-- ALL JS FILES -->
-	<!-- <script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/jquery-3.2.1.min.js"></script>
 	<script src="../js/popper.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
-	ALL PLUGINS
+	<!-- ALL PLUGINS -->
 	<script src="../js/jquery.superslides.min.js"></script>
 	<script src="../js/bootstrap-select.js"></script>
 	<script src="../js/inewsticker.js"></script>
@@ -212,9 +212,9 @@
 	<script src="../js/isotope.min.js"></script>
 	<script src="../js/owl.carousel.min.js"></script>
 	<script src="../js/baguetteBox.min.js"></script>
-	<script src="../js/form-validator.min.js"></script>
+	<!-- <script src="../js/form-validator.min.js"></script> -->
 	<script src="../js/contact-form-script.js"></script>
-	<script src="../js/custom.js"></script> -->
+	<script src="../js/custom.js"></script>
 	<script src="../js/login.js"></script>
 	<script src="../js/offer.js"></script>
 </body>

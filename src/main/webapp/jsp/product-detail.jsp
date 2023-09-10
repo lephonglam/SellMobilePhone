@@ -63,7 +63,7 @@
 						aria-expanded="false" aria-label="Toggle navigation">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand" href="index.html"><img
+					<a class="navbar-brand" href="${pageContext.request.contextPath }/ListServlet"><img
 						src="../image/smartphone-logo.png" class="logo" alt=""><br />
 						<h1>
 							<b>HOANG KIM MOBILE</b>
@@ -215,7 +215,7 @@
 	<script src="../js/isotope.min.js"></script>
 	<script src="../js/owl.carousel.min.js"></script>
 	<script src="../js/baguetteBox.min.js"></script>
-	<script src="../js/form-validator.min.js"></script>
+	<!-- <script src="../js/form-validator.min.js"></script> -->
 	<script src="../js/contact-form-script.js"></script>
 	<script src="../js/custom.js"></script>
 	<script src="../js/offer.js"></script>
