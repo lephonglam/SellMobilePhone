@@ -71,8 +71,7 @@ public class ForgotPasswordServlet extends HttpServlet {
 			}
 			else {
 				String senderEmail = "lamlpFX15058@funix.edu.vn";
-				String senderPassword = "Phonglam230592.";
-//				String senderPassword = System.getenv("EMAIL_SENDER_PASSWORD");
+				String senderPassword = System.getenv("EMAIL_SENDER_PASSWORD");
 				Properties properties = new Properties();
 				properties.put("mail.smtp.auth", "true");
 				properties.put("mail.smtp.starttls.enable", "true");
