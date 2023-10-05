@@ -10,10 +10,9 @@ The HOANG KIM MOBILE Website is a platform that offers a wide range of mobile ph
 To set up and run the HOANG KIM MOBILE Website on your local environment, follow these steps:
 1. Clone this repository to your local machine
 2. Import the project into your preferred Java IDE (e.g., Eclipse, IntelliJ IDEA).
-3. Configure the MySQL database connection details in the application.properties file.
-4. Build the project.
-5. Deploy the project to Apache Tomcat.
-6. Start the Tomcat server.
+3. Build the project.
+4. Deploy the project to Apache Tomcat.
+5. Start the Tomcat server.
 
 ## Usage
 Once you have successfully deployed the project, you can start using it:
